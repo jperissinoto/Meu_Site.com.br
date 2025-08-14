@@ -7,10 +7,10 @@
         "Laranja",
         "Limão",
     ];
-    echo $frutas[0]; // Maça
+    //echo $frutas[0]; // Maça
 
-    $y=4;
-    for($i = $y; $i <= 10; $i++){
-        echo "Número: $i <br>";
+    $i=0;
+    for($i = 0; $i <= 5; $i++){
+        echo "frutas: $frutas[$i] <br>";
     }
 ?>
